@@ -1,3 +1,9 @@
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Caché de pytest
+.pytest_cache/
 
 # Entorno virtual de Python
 .venv/
