@@ -16,6 +16,7 @@ df_mediana = rellenar_nulos_mediana(df)
 df_media = rellenar_nulos_media(df)
 df_moda = rellenar_nulos_moda(df)
 df_sin_duplicados = eliminar_duplicados(df)
+
 resumen = comparar_datos(df, df_mediana)
 
 print("\n=== COMPARACIÓN DE DATOS ===")
