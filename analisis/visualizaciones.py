@@ -46,9 +46,7 @@ def crear_histograma(
     ruta = carpeta / f"histograma_{columna}.png"
     plt.savefig(ruta, dpi=300, bbox_inches="tight")
 
-    # MOSTRAR GRAFICA
-    plt.show()
-    plt.close()
+    
 
 # ==========================================
 # FUNCION: CREAR BARRAS
@@ -110,9 +108,7 @@ def crear_grafico_barras(
 
     plt.savefig(ruta, dpi=300, bbox_inches="tight")
 
-    # MOSTRAR Y CERRAR
-    plt.show()
-    plt.close()
+    
 
 # ==========================================
 # FUNCION: CREAR DISPERCION
@@ -166,9 +162,7 @@ def crear_grafico_dispersion(
 
     plt.savefig(ruta, dpi=300, bbox_inches="tight")
 
-    # MOSTRAR Y CERRAR
-    plt.show()
-    plt.close()
+    
 
 # ==========================================
 # FUNCION: CREAR BOXPLOT
@@ -225,9 +219,7 @@ def crear_boxplot(
 
     plt.savefig(ruta, dpi=300, bbox_inches="tight")
 
-    # MOSTRAR Y CERRAR
-    plt.show()
-    plt.close()
+    
 
 # ==========================================
 # FUNCION: CREAR MAPA DE CALOR
@@ -304,8 +296,6 @@ def crear_mapa_calor(df: pd.DataFrame) -> None:
 
     plt.savefig(ruta, dpi=300, bbox_inches="tight")
 
-    # MOSTRAR Y CERRAR
-    plt.show()
-    plt.close()
+    
 
 

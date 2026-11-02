@@ -35,7 +35,7 @@ def clustering_jerarquico(
             raise ValueError(
                 f"La columna '{columna}' debe ser numérica."
             )
-      # VALIDAR CANTIDAD DE GRUPOS
+    # VALIDAR CANTIDAD DE GRUPOS
     if not isinstance(n_clusters, int) or isinstance(n_clusters, bool):
         raise ValueError("La cantidad de grupos debe ser un entero.")
 
@@ -116,8 +116,7 @@ def clustering_jerarquico(
 
     plt.savefig(ruta, dpi=300, bbox_inches="tight")
 
-    plt.show()
-    plt.close()
+    
 
     # ORGANIZAR RESULTADOS
     return {
